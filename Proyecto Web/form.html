@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ivan Galetar Bernabé">
+    <title>Formulario de consulta</title>
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="expositor.html">Expositor</a></li>
+                <li><a href="form.html">Formulario de consulta</a></li>
+                <li><a href="form2.html">Consultas rapidas</a></li>
+                <li><a href="colors.html">Colores</a></li>
+                <li><a href="calc.html">Calculadora</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <form action="received.html" id="formulario">
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Apellidos">
+            <input type="text" placeholder="DNI" maxlength="9">
+            <label for="fechanacimiento">Fecha de nacimiento</label>
+            <input type="date" id="fechanacimiento" min="1900-01-01" max="2022-12-31">
+            <input type="tel" placeholder="Teléfono" maxlength="9">
+            <input type="email" placeholder="E-mail">
+            <input type="datetime" step="1" min="1900-01-01T00:00Z" max="2022-09-20T12:00Z" value="2022-09-20 12:00">
+            <input type="color">
+            <p>Conocimientos de Informatica:</p>
+            <select>
+                <option>Ninguno</option>
+                <option>Principiante</option>
+                <option>Intermedio</option>
+                <option>Experto</option>
+            </select>
+            <p>Motivo de la consulta</p>
+            <select multiple>
+                <option>Informativa</option>
+                <option>General</option>
+                <option>Problemas</option>
+                <option>Otros</option>
+            </select>
+            <select autocomplete="on">
+                <option>Nullam quis libero condimentum</option>
+                <option>Praesent efficitur vestibulum mauris</option>
+                <option>Mauris vel commodo ipsum</option>
+                <option>Nunc vel leo tristique</option>
+                <option>Suspendisse rhoncus massa justo</option>
+            </select>
+            <textarea name="Consulta" rows="10" cols="50">Escribe aquí tu consulta</textarea>
+            <label for="rangopresupuesto">Rango de presupuesto</label>
+            <input type="number" id="rangopresupuesto" name="rangopresupuesto" min="0" max="1000" step="10">
+            <label for="valoracion">Valoración</label>
+            <input id="valoracion" type="range" min="1" max="5">
+            <input type="hidden" name="codigopostal">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+    nav li{
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+    }
+    nav li:hover{
+    background-color:#fff;
+    color:#000;
+    }
+
+
+#blockchain {display: block; margin: auto; width: 50%;}
+#artificial {display: block; margin: auto; width: 70%;}
+#lorem {display: block; margin: auto; width: 60%;
+        background-color: orange; border-width: 15px;border-color: green;border-style: solid;}
+
+
+table {width: 50%; text-align: left;
+        border-collapse: collapse; margin: 0 0 1em 0;caption-side: top;}
+         caption, td, th {padding: 0.3em;}
+         th, td {border-bottom: 1px solid #000; border-right: 1px solid #000;}
+         th.last, td.last {border-right: 0;}
+         tfoot th, tfoot td {border-bottom: 0; text-align: center;}
+         th {width: 0%;}
+
+#div1 {background-color: green;}
+
+caption {caption-side: bottom;}
+
+#Codigo {background-color: #fff; width: fit-content;}
+
+#pegajoso {position: sticky; top: 0;}
+
+#formulario {display: block; position: relative;text-align: right; width: 100px; margin: 0px;}
+
+iframe{ width: 500px; height: 500px;}
+
+#izquierda {text-align: left; margin-top: -38%;}
+#derecha {text-align: right;}
+
+.textoizquierda {
+    font-family: monospace;
+    letter-spacing: .17em;
+    margin: 0 auto;
+    overflow: visible;
+    white-space: nowrap;
+    border-right: .17em solid pink;
+    animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+    to {
+      width: 100%
+    }
+  }
+  
+  @keyframes blinking-cursor {
+    from,
+    to {
+      border-color: transparent
+    }
+    50% {
+      border-color: pink;
+    }
+  }
+
+  .verde { 
+    display: block;
+    font-family: sans-serif; 
+    font-size: 18px; 
+    font-weight: 400; 
+    color: black; 
+    background: green; 
+    padding: 20px;
+    overflow: visible;
+    border: 2px #00ff04;
+    border-style: solid;
+    width: 50%;
+    height: 240px;
+    text-align: left;
+    position: relative;
+    }
+
+  .amarillo { 
+    display: block;
+    font-family: sans-serif; 
+    font-size: 18px; 
+    font-weight: 400; 
+    color: black; 
+    background:yellow;
+    padding: 20px;
+    overflow: scroll; 
+    border: 2px #00ff04;
+    border-style: solid;
+    width: 50%;
+    height: 150px;
+    position: relative;
+    top: 100px;}
+
+  .rojo { 
+    display: block;
+    font-family: sans-serif; 
+    font-size: 18px; 
+    font-weight: 400; 
+    color: black; 
+    background: red;
+    padding: 20px;
+    overflow: hidden;
+    border: #00ff04;
+    border-width: 2px;
+    border-style: solid;
+    width: 30%;
+    height: 250px;
+    position: relative;
+    left: 1000px;
+    top: -350px;}
+
+   
+
+  
